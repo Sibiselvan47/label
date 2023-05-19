@@ -1,0 +1,6 @@
+conda env list
+conda activate lab
+conda  install pyqt=5
+cd C:\Users\jamal\Downloads\Labelimg
+pyrcc5 -o libs/resources.py resources.qrc
+python labelImg.py
